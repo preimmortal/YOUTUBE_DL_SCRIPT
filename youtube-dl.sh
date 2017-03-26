@@ -20,7 +20,7 @@ if [ "$1" != "" ]; then
         echo Creating directory: $dirname
         mkdir -p -- "$dirname"
     fi
-    screen -dmS download youtube-dl -x --audio-format "mp3" --restrict-filenames -i -o "$dirname%(title)s.%(ext)s" $1 
+    youtube-dl -x --audio-format "mp3" --restrict-filenames -i -o "$dirname%(title)s.%(ext)s" $1 
 else
     echo "No Input, enter following"
     echo "1: Playlist Link"

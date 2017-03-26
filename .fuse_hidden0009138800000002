@@ -1,0 +1,8 @@
+#!/bin/sh -f 
+
+youtube-dl --update
+
+/media/USBHDD1/YOUTUBE_DL/DL_SCRIPT/youtube-dl.sh https://www.youtube.com/playlist?list=PL_ktuxZNJnpiEsZVxaXxmOQTEG6245Iw7 edm
+
+
+
